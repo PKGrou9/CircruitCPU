@@ -21,6 +21,7 @@ client.on('message', message => {
     if (message.content === '..yt') {
     	message.reply('YT Official :  https://m.youtube.com/channel/UCTJQkBj3dhkgA1TXnpZGkhw');
   	}  
+
 });
 
 
