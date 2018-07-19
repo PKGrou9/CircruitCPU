@@ -29,16 +29,6 @@ client.on('message', message => {
   	}  
 });
 
-command!(latency(_context, message, _ping) {
-    let start = PreciseTime::now();
-    let message = message.channel_id.say("Pinging...");
-    let end = PreciseTime::now();
-    if let Ok(mut m) = message {
-        let ms = start.to(end).num_milliseconds();
-        let _ = m.edit(|m| m.content(format!("Pong! Latency: {}", ms)));
-    }
-});
-
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
