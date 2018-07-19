@@ -10,7 +10,9 @@ client.on('message', message => {
     	message.reply('PONG - My Commands are:
                       ..patches
                       ..yt
-                      More will come i a few Updates!');
+                      More will come i a few Updates!
+                      Bot Creator:Windows97
+                      Bot Co-Creator:FSxOmega');
   	}
 });
 
