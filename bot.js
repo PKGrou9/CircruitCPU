@@ -6,8 +6,23 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === 'patchnotes') {
+    if (message.content === '..help') {
+    	message.reply('PONG - My Commands are:
+                      ..patches
+                      ..yt
+                      More will come i a few Updates!');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === '..patches') {
     	message.reply('PONG - None found in Cloud');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === '..yt') {
+    	message.reply('PONG - https://m.youtube.com/channel/UCf2BRnCkA7do5wvKgwtAAhg');
   	}
 });
 
