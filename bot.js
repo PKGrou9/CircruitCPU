@@ -20,8 +20,13 @@ client.on('message', message => {
 client.on('message', message => {
     if (message.content === '..yt') {
     	message.reply('YT Official :  https://m.youtube.com/channel/UCTJQkBj3dhkgA1TXnpZGkhw');
-  	}  
+  	}
+});
 
+    client.on('message', message => {
+    if (message.content === '..donate') {
+    	message.reply('if you Wanna Donate to Help My Programmation : PayPal [ pkgrou9@gmail.com ] Donate to this E-Mail');
+  	}  
 });
 
 
