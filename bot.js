@@ -12,7 +12,7 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
-    if (message.content === '..patches') {
+    if (message.content === '..help') {
     	message.reply('Ok Sure Here - Error : Code Unfinished Work ...');
   	}  
 });
