@@ -7,13 +7,13 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if (message.content === '..patches') {
-    	message.reply('PONG - New Prefix [..] / Bug Fixes / Soon ( ..yt CMD / Other CMDs');
+    	message.reply('PONG - New Prefix [..] / New CMD - ..donate / donate and help my programmation !');
   	}  
 });
 
 client.on('message', message => {
     if (message.content === '..help') {
-    	message.reply('Ok Sure Here - Error : Code Unfinished Work ...');
+    	message.reply('Ok Sure Here - CMDs : / ..help / ..donate / ..yt / ..patches / Other : / Nan Err - EExx /');
   	}  
 });
 
