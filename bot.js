@@ -6,8 +6,12 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === 'patchnotes') {
+    if (message.content === '..patchnotes') {
     	message.reply('PONG - None found in Cloud');
+  	}
+client.on('message', message => {
+    if (message.content === '..ping') {
+    	message.reply('PONG');
   	}
 });
 
