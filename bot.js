@@ -17,6 +17,12 @@ client.on('message', message => {
   	}  
 });
 
+client.on('message', message => {
+    if (message.content === '..yt') {
+    	message.reply('YT Official : Error : No URL Found');
+  	}  
+});
+
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
