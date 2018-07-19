@@ -5,6 +5,8 @@ client.on('ready', () => {
     console.log('I am ready!');
 });
 
+client.user.setGame('Test')
+
 client.on('message', message => {
     if (message.content === '..patches') {
     	message.reply('PONG - New Prefix [..] / Bug Fixes / Soon ( ..yt CMD / Other CMDs');
