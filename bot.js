@@ -25,8 +25,7 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content === '..donate') {
-    	message.reply('if you Wanna Donate to Help My Programmation : PayPal [ pkgrou9@gmail.com ] Donate to this E-Mail / Invite Me
-                      https://discordapp.com/api/oauth2/authorize?client_id=461174799599927297&permissions=0&scope=bot');
+    	message.reply('if you Wanna Donate to Help My Programmation : PayPal [ pkgrou9@gmail.com ] Donate to this E-Mail / Invite Me https://discordapp.com/api/oauth2/authorize?client_id=461174799599927297&permissions=0&scope=bot');
   	}  
 });
 
