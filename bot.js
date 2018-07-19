@@ -9,6 +9,7 @@ client.on('message', message => {
     if (message.content === '..patches') {
     	message.reply('PONG - New Prefix [..] / Bug Fixes / Soon ( ..yt CMD / Other CMDs');
   	}
+bot.user.setGame('Version 1.3 / Recently Updated')
 });
 
 
