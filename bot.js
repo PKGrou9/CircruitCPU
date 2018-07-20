@@ -35,6 +35,11 @@ client.on('message', message => {
   	}  
 });
 
+client.on('message', message => {
+    if (message.content === '..support')
+        message.reply('My Support Discord Server - https://discord.gg/GbmZFqb')
+    }
+});
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
