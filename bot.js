@@ -33,7 +33,7 @@ client.on('message', message => {
     if (message.content === '..invite') {
     	message.reply('https://discordapp.com/api/oauth2/authorize?client_id=461174799599927297&permissions=0&scope=bot');
   	}  
-});
+}); 
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
