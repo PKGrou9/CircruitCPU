@@ -42,7 +42,7 @@ client.on('message', message => {
     if (message.content === '..invite') {
         message.channel.send({embed: {
         color: 0xff0000,
-    	description: "My Invite Link - https://discordapp.com/api/oauth2/authorize?client_id=461174799599927297&permissions=0&scope=bot');
+    	description: "My Invite Link - https://discordapp.com/api/oauth2/authorize?client_id=461174799599927297&permissions=0&scope=bot"
     }});
 }); 
 
