@@ -64,8 +64,7 @@ client.on('message', message => {
         message.channel.send({embed: {
   color: 0xf0000
   
-  description: "If you wanna Donate for faster Coding - paypal.me/fsxalpha"If you Wanna Donate to Help My Programmation : PayPal [ pkgrou9@gmail.com ] Donate to this E-Mail!"
-
+  description: "If you Wanna Donate to Help My Programmation : PayPal [ pkgrou9@gmail.com ] Donate to this E-Mail!"
 }});
       }
 });
