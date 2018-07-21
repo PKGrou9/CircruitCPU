@@ -15,7 +15,7 @@ client.on('message', message => {
         message.channel.send({embed: {
   color: 0xff0000,
  
-  description: "Creator: @Microsoft#4095 // Version: 1.5 // Hey Its Me CircruitCPU // Say ..help for Help !"
+  description: "Creator: @SuOSoft#4095 // Version: 1.5 // Hey Its Me CircruitCPU // Say ..help for Help !"
 }});
       }  
 });
