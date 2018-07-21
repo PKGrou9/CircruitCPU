@@ -51,7 +51,7 @@ client.on('message', message => {
         message.channel.send({embed: {
   color: 0xff0000,
 
-  description: "Wanna invite me to your Server? - "
+  description: "Wanna invite me to your Server? - https://discordapp.com/api/oauth2/authorize?client_id=461174799599927297&permissions=8&scope=bot"
 }});
 
       }  
