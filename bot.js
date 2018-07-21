@@ -1,7 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
-//If the bot is Ready (in Console)
 client.on('ready', () => {
     console.log('Booted...');
 });
